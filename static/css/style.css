@@ -68,12 +68,4 @@ section:last-of-type {
     margin-bottom: 0;
 }
 
-.fake-link {
-    color: #2980b9; /* Цвет ссылок */
-    text-decoration: underline;
-    cursor: pointer;
-}
 
-.fake-link:hover {
-    color: #3498db; /* Цвет при наведении */
-}
