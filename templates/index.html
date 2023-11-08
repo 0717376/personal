@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Analyst Portfolio</title>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+
+<body>
+
+    <div class="content">
+        <header>
+            <h1>Sergey Muravskiy</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <!-- Other navigation links -->
+            </nav>
+        </header>
+
+        <main>
+            <section id="about" class="code-experience">
+                <pre><code class="json">
+{
+    "about": {
+        "name": "Муравский Сергей",
+        "title": "Системный Аналитик",
+        "contact": {
+            "email": "mail@muravskiy.com",
+            "tg": "@somepeoplesay",
+            "LinkedIn": "linkedin.com/in/muravskiy/"
+        },
+        "skills": ["Python", "SQL", "Анализ данных"]
+    }
+}
+                </code></pre>
+            </section>
+            <section id="experience" class="code-experience">
+                <pre><code class="json">
+{
+    "experience": [
+        {
+            "Company": "ПАО Европлан",
+            "Role": "System Analyst",
+            "Years": "2022-2023",
+            "Description": "My responsibilities."
+        },
+        // More experience is coming soon...
+    ]
+}
+                </code></pre>
+            </section>
+
+        </main>
+
+        <footer>
+            <!-- Footer content -->
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>

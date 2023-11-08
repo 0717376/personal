@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.code-experience {
+    background-color: #282c34;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+pre {
+    margin: 0;
+}
+
+code.json {
+    display: block; /* or inline-block */
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+section {
+    margin-bottom: 20px; /* Или любое другое значение, которое вам нравится */
+}
+
+/* Убедитесь, что у последнего раздела нет отступа снизу, чтобы избежать лишнего пространства перед футером */
+section:last-of-type {
+    margin-bottom: 0;
+}
+
+.fake-link {
+    color: #2980b9; /* Цвет ссылок */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fake-link:hover {
+    color: #3498db; /* Цвет при наведении */
+}
